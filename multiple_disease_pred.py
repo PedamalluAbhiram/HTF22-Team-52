@@ -1,19 +1,12 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Oct 29 23:19:43 2022
-
-@author: Bobby
-"""
-
 import pickle
 import streamlit as st
 from streamlit_option_menu import option_menu
 
-diabetes_model = pickle.load(open("",'rb'))
+diabetes_model = pickle.load(open("C:/Users/pedam/Documents/GitHub/HTF22-Team-52/diabetes_model.sav",'rb'))
 
-heart_disease_model = pickle.load(open("C:/Users/narsi/OneDrive/Desktop/mdps/saved_models/heart_disease_model.sav",'rb'))
+heart_disease_model = pickle.load(open("C:/Users/pedam/Documents/GitHub/HTF22-Team-52/heart_disease_model.sav",'rb'))
 
-parkinsons_model = pickle.load(open("C:/Users/narsi/OneDrive/Desktop/mdps/saved_models/parkinsons_model.sav",'rb'))
+parkinsons_model = pickle.load(open("C:/Users/pedam/Documents/GitHub/HTF22-Team-52/parkinsons_model.sav",'rb'))
 
 #sidebar for navigate
 
